@@ -1,0 +1,28 @@
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  outline: 1px solid #fff;
+  background-color: transparent;
+}
+
+.cell-shape {
+  padding: 0;
+  margin: 0;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+
+/* Utility Classes */
+.hide {
+  display: none;
+}
+
+.pink {
+  background-color: pink;
+}
